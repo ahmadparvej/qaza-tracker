@@ -39,8 +39,8 @@ const HomePage: React.FC = () => {
   return (
     <div className="p-6">
       <div className='flex justify-between items-center'>
-        <h1 className="text-2xl font-bold mb-6">Qaza Tracker</h1>
-        <h1 className="text-2xl font-bold mb-6">Total {sumOfQazaNamaz}</h1>
+        <h1 className="text-xl font-bold mb-6">Qaza Tracker</h1>
+        <h1 className="text-xl font-bold mb-6">Total: {sumOfQazaNamaz}</h1>
       </div>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {prayers.map((prayer) => (
