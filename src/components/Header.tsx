@@ -11,6 +11,7 @@ const Header: React.FC = () => {
           {/* <Link href="/add">
             Add Prayer
           </Link> */}
+          <div>بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
         </nav>
       </div>
     </header>
